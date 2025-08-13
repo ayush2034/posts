@@ -4,9 +4,4 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['@/assets/css/tailwind.css'],
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
-  runtimeConfig: {
-    public: {
-      mockApiBase: 'https://dummyjson.com'
-    }
-  }
 })
