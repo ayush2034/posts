@@ -1,75 +1,66 @@
-# Nuxt Minimal Starter
+# 📌 Nuxt Minimal Starter with 15-Minute API Caching
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A Nuxt 3 starter project styled with Tailwind CSS, state-managed with Pinia, and optimized with **API response caching** for better performance.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## ✨ Features
+
+- ⚡ **Nuxt 3** with server-side rendering
+- 🎨 **Tailwind CSS** for modern UI styling
+- 🗂 **Pinia** for state management
+- 🔄 **API Integration** with `jsonplaceholder`
+- 💾 **15-Minute Server-Side API Caching**
+- 📱 **Responsive design** for all devices
+- 🛠 **Easy to extend** for real projects
+
+---
+
+## 📦 Setup
+
+Clone the repository and install dependencies:
 
 ```bash
-# npm
+git clone https://github.com/ayush2034/posts.git
+cd posts
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+## 🧪 Running the Development Server
+
+Start the development server on `http://localhost:3000/posts`:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+---
 
-Build the application for production:
+## 📁 Project Structure
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+├── assets/              
+├── components/          
+│   ├── PostCard.vue
+├── composables/         
+├── pages/
+│   ├── posts
+│       ├── [id].vue
+│       ├── index.vue
+├── stores/              
+│   └── posts.js
+└── nuxt.config.ts
 ```
 
-Locally preview production build:
+---
 
-```bash
-# npm
-npm run preview
+## 🧰 Tech Stack
 
-# pnpm
-pnpm preview
+- [Nuxt 3](https://nuxt.com/)
+- [Vue 3](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Pinia](https://pinia.vuejs.org/) for state management
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+--- 
